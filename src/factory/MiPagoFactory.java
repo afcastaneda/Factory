@@ -1,6 +1,6 @@
 package factory;
 
-public class PagoFactory {
+public class MiPagoFactory extends PagoFactory{
 
     public Pago obtenerPago(TipoDePago tipoDePago) {
         
